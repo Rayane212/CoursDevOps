@@ -8,7 +8,7 @@ jobs:
     - name: Get latest code
       uses: actions/checkout@v3
     - name: Sync files
-      uses: Rayane212/CoursDevOps
+      uses: Rayane212/CoursDevOps@4.3.3
       with:
         server: files.000webhost.com
         username: RayaneH
